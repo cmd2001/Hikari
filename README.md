@@ -1,2 +1,44 @@
 # Hikari
-A Single Column, High Screen Utilization Wordpress Theme Based on H-Siren
+### A Single Column, High Screen Utilization Wordpress Theme Based on H-Siren.
+
+#### 基于H-Siren二次开发的单栏主题
+
+主要更改部分：
+
+1. 调整栏目宽度，提高屏幕利用率。
+2. 添加对无`Gravatar`评论者随机头像功能，头像选取基于邮箱哈希，故相同邮箱总会匹配到同一个随机头像。
+3. 替换字体为`XHei Intel(IoF)`
+4. 美化主页加载栏动图；调整主页底部高度。
+5. 简化页面，移除部分页面提示语句、评论装饰图片。
+6. 调整部分提示语句。
+7. 移除（屏蔽）了一些功能。
+8. 部分细节美化。
+
+### 部署：
+
+#### 资源下载
+
+为了减少GitHub Repo大小，删除了大量背景图片、随机头像图片。同时字体采取跨站链接形式。
+
+这里提供缺失资源下载地址：[云盘链接](https://ss2.yukisaki.io:2333/#s/5-oNqimA)
+
+图片、字体资源来自网络，如有侵权请提醒删除。
+
+#### 推荐的源码级修改：
+
+1. 更改`function.php`中`local_random_avatar`函数内常量以使用自定义博主头像。
+2. 替换源自`https://cdn.yukisaki.io/`的字体文件。我的服务器很慢......
+
+~~都用WordPress了不可能这点代码都不会改吧~~
+
+#### 关于运行速度
+
+卡永远不是它的问题，而是你的。
+
+如果认为该主题运行很慢，请自行升级客户端设备。
+
+### License
+
+上游版本没有写License......
+
+个人修改部分授权方式为GPL v3，上游代码授权以实际作者为准。

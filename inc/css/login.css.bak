@@ -1,0 +1,91 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: "Microsoft JhengHei", miranafont, "Hiragino Sans GB", STXihei, "Microsoft YaHei", SimSun, Sans-Serif;
+    font-size: 16.8px;
+    overflow-y: auto;
+    background: none;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    z-index: -1;
+    background-image: url(../../images/hd.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    -moz-filter: blur(10px) brightness(.88);
+    -webkit-filter: blur(10px) brightness(.88);
+    -o-filter: blur(10px) brightness(.88);
+    -ms-filter: blur(10px) brightness(.88);
+    filter: blur(10px) brightness(.88);
+}
+
+.login h1 a {
+    background-image: url(../../images/login.png);
+    background-size: auto;
+    margin: 0 auto;
+    width: auto;
+}
+
+.login form {
+    background: none;
+    box-shadow: none;
+    padding: 25px;
+    margin: 0;
+}
+
+#login {
+    width: 90vw;
+    max-width: 310px;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .53);
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+
+#login .submit .button {
+    height: 38px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    margin: 18px 0;
+    background: rgba(255, 86, 87, .7);
+    border-radius: 15px;
+    width: 100%;
+}
+
+#login .submit .button:hover {
+    background: rgb(255, 86, 87);
+}
+
+.wp-core-ui .button-primary {
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus, .wp-core-ui .button:focus {
+    border-color: rgb(255, 86, 87);
+    box-shadow: 0 0 3px rgba(255, 86, 87, .7);
+}
+
+#login a {
+    color: #fff !important;
+    text-shadow: 1px 1px 0px #000;
+}
