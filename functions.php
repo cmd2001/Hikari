@@ -245,11 +245,11 @@ function admin_font()
     <style type="text/css">
         @font-face {
             font-family: XHei_Intel;
-            src: url('https://cdn.yukisaki.io:2333/fonts/XHei-Intel-lite.ttf');
+            src: url('https://cdn2.yukisaki.io:51391/fonts/XHei-Intel-lite.ttf');
         }
         @font-face {
             font-family: XHei_Intel;
-            src: url('https://cdn.yukisaki.io:2333/fonts/XHei-Intel-lite-Bold.ttf');
+            src: url('https://cdn2.yukisaki.io:51391/fonts/XHei-Intel-lite-Bold.ttf');
             font-weight: bold;
         }
         body {
